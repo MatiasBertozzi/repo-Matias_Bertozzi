@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+}
+nav{
+    display: flex;
+    margin-left: 50px;
+    align-items: flex-end;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border:solid black 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 5px;
+}   
+
+section{
+    display: flex;
+
+}
+div{
+    border: solid black 1px;
+    padding: 10px;
+    margin: 5px 5px ;
+}
+
+section img{
+    width: 200px;
+}
+
+/* pongo el display en block (bloque) para que ocupe todo el renglon, porque con inline uno de los botones queda cortado */
+section a{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: ;
+    }
+}
+
+@media (max-width: 460px) {
+    body {
+        background-color: ;
+    }
+}
