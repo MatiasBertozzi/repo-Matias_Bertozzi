@@ -31,6 +31,17 @@ img{
     height: 20vh;
 }
 
+footer {
+    background-color: rgb(26, 26, 77);
+    text-align: center;
+    position: fixed;
+    padding: 15px;
+    bottom: 0;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+}
+
 @media (max-width: 768px) {
     body {
         background-color: #9fd0ec;
