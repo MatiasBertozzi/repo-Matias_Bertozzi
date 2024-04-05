@@ -19,7 +19,12 @@ a{
     padding: 5px;
     margin: 5px 5px;
 } 
-img.producto{
+
+img.logo{
+    width: 10%;
+    height: 10%;
+}
+img{
     height: 20vh;
 }
 div{
