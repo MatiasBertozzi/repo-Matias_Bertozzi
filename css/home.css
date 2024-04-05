@@ -49,13 +49,29 @@ section a{
 }
 
 @media (max-width: 768px) {
-    body {
-        background-color: ;
+    header{
+        display: block;
+    }
+    nav{
+        display: block;
+        height: auto;
+    }
+    a{
+        display: block;
+        text-align: center;
     }
 }
 
 @media (max-width: 460px) {
-    body {
-        background-color: ;
+    header{
+        display: block;
+    }
+    nav{
+        display: block;
+        height: auto;
+    }
+    a{
+        display: block;
+        text-align: center;
     }
 }

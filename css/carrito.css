@@ -8,7 +8,6 @@ header{
 }
 nav{
     display: flex;
-    margin-left: 50px;
     align-items: flex-end;
     justify-content: center;
 }
@@ -20,15 +19,37 @@ a{
     padding: 5px;
     margin: 5px 5px;
 } 
+img.producto{
+    height: 20vh;
+}
+div{
+    margin: 10px;
+}
 
 @media (max-width: 768px) {
-    body {
-        background-color: ;
+    header{
+        display: block;
+    }
+    nav{
+        display: block;
+        height: auto;
+    }
+    a{
+        display: block;
+        text-align: center;
     }
 }
 
 @media (max-width: 460px) {
-    body {
-        background-color: ;
+    header{
+        display: block;
+    }
+    nav{
+        display: block;
+        height: auto;
+    }
+    a{
+        display: block;
+        text-align: center;
     }
 }
