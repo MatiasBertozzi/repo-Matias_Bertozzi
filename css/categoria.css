@@ -21,14 +21,18 @@ a{
     margin: 5px 5px;
 } 
 
+body {
+    background-color: #9fd0ec;
+}
+
 @media (max-width: 768px) {
     body {
-        background-color: ;
+        background-color: #9fd0ec;
     }
 }
 
 @media (max-width: 460px) {
     body {
-        background-color: ;
+        background-color: #9fd0ec;
     }
 }
