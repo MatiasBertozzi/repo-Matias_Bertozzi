@@ -6,6 +6,13 @@
 header{
     display: flex;
 }
+
+.logo {
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+}
+
 nav{
     display: flex;
     margin-left: 50px;
