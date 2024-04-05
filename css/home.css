@@ -48,6 +48,10 @@ section a{
     text-align: center;
 }
 
+body {
+    background-color: #9fd0ec;
+}
+
 @media (max-width: 768px) {
     header{
         display: block;
