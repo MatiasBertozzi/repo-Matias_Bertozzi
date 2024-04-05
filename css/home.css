@@ -7,6 +7,12 @@ header{
     display: flex;
 }
 
+img.logo{
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+}
+
 nav{
     display: flex;
     align-items: flex-end;

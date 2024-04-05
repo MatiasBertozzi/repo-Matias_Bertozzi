@@ -24,11 +24,16 @@ img.logo{
     width: 10%;
     height: 10%;
 }
-img{
+
+img {
     height: 20vh;
 }
 div{
     margin: 10px;
+}
+
+body {
+    background-color: #9fd0ec;
 }
 
 footer {
