@@ -48,3 +48,14 @@ section a{
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    body {
+        background-color: ;
+    }
+}
+
+@media (max-width: 460px) {
+    body {
+        background-color: ;
+    }
+}
