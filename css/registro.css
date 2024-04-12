@@ -30,6 +30,8 @@ a{
 
 body {
     background-color: #9fd0ec;
+    text-align: center;
+    
 }
 
 footer {
@@ -44,13 +46,29 @@ footer {
 }
 
 @media (max-width: 768px) {
-    body {
-        background-color: #9fd0ec;
+    header{
+        display: block;
+    }
+    nav{
+        display: block;
+        height: auto;
+    }
+    a{
+        display: block;
+        text-align: center;
     }
 }
 
 @media (max-width: 460px) {
-    body {
-        background-color: #9fd0ec;
+    header{
+        display: block;
+    }
+    nav{
+        display: block;
+        height: auto;
+    }
+    a{
+        display: block;
+        text-align: center;
     }
 }
