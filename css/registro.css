@@ -24,17 +24,17 @@ a{
     border-radius: 5px;
     padding: 5px;
     margin: 5px 5px;
-    background-color: rgb(26, 26, 77);
+    background-color: black;
 }   
 
 body {
-    background-color: #94d3f8;
+    background-color: white;
     text-align: center;
     
 }
 
 footer {
-    background-color: rgb(26, 26, 77);
+    background-color: black;
     text-align: center;
     padding: 3px;
     color: white;
