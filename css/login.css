@@ -10,7 +10,6 @@ header{
 img.logo{
     width: 10%;
     height: 10%;
-    border-radius: 10px;
 }
 
 nav{
@@ -25,33 +24,26 @@ a{
     border-radius: 5px;
     padding: 5px;
     margin: 5px 5px;
-    background-color: rgb(26, 26, 77);
+    background-color: black;
 }   
 
 body {
-    background-color: #94d3f8;
+    background-color: white;
     text-align: center;
 }
-img.logo{
-    height: 10%;
-    width: 10%;
-}
-img{
-    height: 20vh;
-}
+
 
 footer {
-    background-color: rgb(26, 26, 77);
+    background-color: black;
     text-align: center;
     padding: 3px;
     color: white;
     width: 100%;
-
 }
 
 @media (max-width: 768px) {
     body {
-        background-color: #94d3f8;
+        background-color: white;
     }
     header{
         display: block;
@@ -69,7 +61,7 @@ footer {
 
 @media (max-width: 460px) {
     body {
-        background-color: #94d3f8;
+        background-color: white;
     }
     header{
         display: block;
