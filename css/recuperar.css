@@ -10,7 +10,6 @@ header{
 img.logo{
     width: 10%;
     height: 10%;
-    border-radius: 10px;
 }
 
 nav{
@@ -21,29 +20,26 @@ nav{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
     border:solid black 1px;
     border-radius: 5px;
     padding: 5px;
     margin: 5px 5px;
-} 
+    background-color: rgb(26, 26, 77);
+}   
 
 body {
-    background-color: #9fd0ec;
+    background-color: #94d3f8;
     text-align: center;
 }
 
 footer {
     background-color: rgb(26, 26, 77);
     text-align: center;
-    position: fixed;
-    padding: 15px;
-    bottom: 0;
+    padding: 3px;
     color: white;
-    border-radius: 10px;
     width: 100%;
 }
-
 @media (max-width: 768px) {
     header{
         display: block;
