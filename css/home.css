@@ -32,11 +32,11 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center
 }
 
 div{
-    border: solid black 1px;
+    
     padding: 10px;
     margin: 5px 5px ;
     width: 250px;
