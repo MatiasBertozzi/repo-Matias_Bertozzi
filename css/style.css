@@ -50,6 +50,11 @@ div.producto{
     width: 250px;
     border-radius: 5px;
     /* flex-grow: 1; */
+    transition: 0.5s;
+}
+
+div.producto:hover{
+    transform: scale(1.05);
 }
 div.link{
     margin-top: 20px;
