@@ -35,12 +35,20 @@ a{
 }
 div.detalleProducto{
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
 }
+div.detalleProducto img{
+    align-self: center;
+}
+
 div.producto{
-    border: solid black 1px;
+    box-shadow:0 0 10px rgba(150, 142, 173, 0.973);
     padding: 10px;
     margin: 5px 5px ;
     width: 250px;
+    border-radius: 5px;
     /* flex-grow: 1; */
 }
 div.link{
