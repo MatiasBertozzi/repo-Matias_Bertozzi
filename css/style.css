@@ -10,6 +10,7 @@ header{
 
 img {
     width: 20vh;
+    justify-content: center;
 }
 nav{
     display: flex;
@@ -39,9 +40,7 @@ div.detalleProducto{
     flex-direction: column;
     /* align-items: center; */
 }
-div.detalleProducto img{
-    align-self: center;
-}
+
 
 div.producto{
     box-shadow:0 0 10px rgba(150, 142, 173, 0.973);
@@ -49,6 +48,8 @@ div.producto{
     margin: 5px 5px ;
     width: 250px;
     border-radius: 5px;
+    text-align: center;
+    justify-content: center;
     /* flex-grow: 1; */
     transition: 0.5s;
 }
@@ -56,6 +57,7 @@ div.producto{
 div.producto:hover{
     transform: scale(1.05);
 }
+
 div.link{
     margin-top: 20px;
 }
