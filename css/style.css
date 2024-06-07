@@ -11,6 +11,7 @@ header{
 img {
     width: 20vh;
     justify-content: center;
+    margin-top: 10px
 }
 nav{
     display: flex;
@@ -46,6 +47,7 @@ div.producto{
     box-shadow:0 0 10px rgba(150, 142, 173, 0.973);
     padding: 10px;
     margin: 5px 5px ;
+    margin-bottom: 20px;
     width: 250px;
     border-radius: 5px;
     text-align: center;
