@@ -28,7 +28,7 @@ for (let i = 0; i < data.length; i++) {
             <div class="producto">
                 <img src=${data[i].image} alt="Productos">
                 <h2>${data[i].title}</h2>
-                <p>Descripcion: ${data[i].description}/p>
+                <p>Description: ${data[i].description}/p>
                 <p>Precio: $${data[i].price}</p>
                 <a href="./producto.html?id=${data[i].id}">Ver mas</a>
             </div>
@@ -56,7 +56,7 @@ for (let i = 0; i < data.length; i++) {
             <div class="producto">
                 <img src=${data[i].image} alt="Productos">
                 <h2>${data[i].title}</h2>
-                <p>Descripcion: ${data[i].description}/p>
+                <p>Description: ${data[i].description}/p>
                 <p>Precio: $${data[i].price}</p>
                 <a href="./producto.html?id=${data[i].id}">Ver mas</a>
             </div>
@@ -84,7 +84,7 @@ for (let i = 0; i < data.length; i++) {
             <div class="producto">
                 <img src=${data[i].image} alt="Productos">
                 <h2>${data[i].title}</h2>
-                <p>Descripcion: ${data[i].description}/p>
+                <p>Description: ${data[i].description}/p>
                 <p>Precio: $${data[i].price}</p>
                 <a href="./producto.html?id=${data[i].id}">Ver mas</a>
             </div>
