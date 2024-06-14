@@ -1,8 +1,8 @@
 let queryLocation=location.search
 let queryString=new URLSearchParams(queryLocation)
-let id= queryString.get("id")
+let id=queryString.get("id")
 
-console.log(id);
+console.log(id)
 
 fetch(`https://fakestoreapi.com/products/${id}`)
 
@@ -13,20 +13,21 @@ fetch(`https://fakestoreapi.com/products/${id}`)
 .then(function(data){
     console.log(data);
 
-    let detalleProductoEspecifico = document.querySelector(".detalleProducto");
+    let detalleProductoEsoecifico = document.querySelector(".detalleProducto");
     
     detalleProductoEspecifico.innerHTML=`
-
-            <div class="detalleProducto">
-                <h2>${data.title}</h2>
-                <p>Description: ${data.description}/p>
-                <p>Precio: $${data.price}</p>
-                <img src=${data.image} alt="detalleProducto">
-                <p>Category: ${data.category}</p>
-            </div>
-        `
-
+    
+    <div class="detalleProducto">
+    <h2>${data.title}</h2>
+    <p>Description: ${data.description}</p>
+    <p>Precio: $${data.price}</p>
+    <img src=${data.image} alt="detalleProducto">
+    <p>Category: ${data.category}</p>
+    </div>
+    `
 })
-.catch(function (err){
+
+.catch(function(err){
     console.log(err);
 }) 
+
