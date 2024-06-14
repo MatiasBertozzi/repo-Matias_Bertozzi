@@ -13,18 +13,19 @@ fetch(`https://fakestoreapi.com/products/${id}`)
 .then(function(data){
     console.log(data);
 
-    let detalleProductoEsoecifico = document.querySelector(".detalleProducto");
+    let detalleProductoEspecifico = document.querySelector(".detalleProducto");
     
     detalleProductoEspecifico.innerHTML=`
     
-    <div class="detalleProducto">
-    <h2>${data.title}</h2>
-    <p>Description: ${data.description}</p>
-    <p>Precio: $${data.price}</p>
-    <img src=${data.image} alt="detalleProducto">
-    <p>Category: ${data.category}</p>
-    </div>
-    `
+        <div class="detalleProducto">
+            <h2>${data.title}</h2>
+            <p>Description: ${data.description}</p>
+            <p>Precio: $${data.price}</p>
+            <img src=${data.image} alt="detalleProducto"</img>
+            <p>Category: ${data.category}</p>
+        </div>
+        `
+    
 })
 
 .catch(function(err){
