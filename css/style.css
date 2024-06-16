@@ -69,6 +69,49 @@ div.link{
 button.submit{
     margin-top: 10px;
 }
+
+.CategoriaLink{
+    color: blue;
+    background-color: white;
+    border: none;
+}
+
+.CategoriaLink:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+.AgregarAlCarrito{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 5px 5px;
+}
+
+.productosSeleccionados {
+    display: flex;
+    flex-wrap: wrap;
+}
+.FinalizarCompra {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 5px 5px;
+}
+
+.FinalizarCompra:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.AgregarAlCarrito:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
 section img{
     width: 200px;
 }
