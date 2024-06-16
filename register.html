@@ -27,20 +27,24 @@
         <section class="box">
     <h2>Registro</h2>
 
-    <form action="#" method="get">
-        <div>
+    <form action="./login.html" method="get">
+        <div class="email">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" value="">
+            <span class="emailSpan" style="display: none;">Por favor complete el campo</span>
         </div>
 
-        <div>
+        <div class="contraseña">
             <label for="password">Contraseña:</label>
             <input type="password" id="password" name="password" value="">
+            <span class="contraseñaSpan" style="display: none;">Por favor complete el campo</span>
+            <span class="contraseñaSpan2" style="display: none;">Debe ingresar al menos 6 caracteres</span>
         </div>
 
-        <div>
+        <div class="RepetirContraseña">
             <label for="confirm-password">Repetir contraseña:</label>
             <input type="password" id="confirm-password" name="confirm-password" value="">
+            <span  class="repetirContraseñaSpan" style="display: none;">Las contraseñas no coinciden</span>
         </div>
 
         <div>
