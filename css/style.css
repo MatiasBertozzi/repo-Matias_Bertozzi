@@ -71,7 +71,7 @@ button.submit{
 }
 
 .CategoriaLink{
-    color: blue;
+    color: black;
     background-color: white;
     border: none;
 }
@@ -110,6 +110,35 @@ button.submit{
     transform: scale(1.05);
     transition: 0.5s;
     opacity: 0.5;
+}
+
+form .checkboxContainer {
+    display: flex;
+}
+
+#botonRecuperar {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#botonRecuperar:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+#IrAlLogin {
+    color: black;
+    background-color: white;
+    border-color:white; 
+}
+
+#IrAlLogin:hover {
+    text-decoration: underline;
+    opacity: 0.5; 
 }
 
 section img{

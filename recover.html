@@ -26,11 +26,18 @@
     <main class="bigBox">
         <section class="box">
             <h2>Recuperar contraseña</h2>
-        <form id="recuperar-contraseña" method="get">
+        <form id="recuperarContraseña" method="get">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" value="">
-            <input type="checkbox" id="checkbox"> Quiero recuperar mi contraseña
-            <input type="submit" value="Recuperar" class="submit">
+            <input type="email" id="email" name="email">
+            <div class="checkboxContainer">
+                <label for="checkbox">Quiero recuperar mi contraseña</label>
+                <input type="checkbox" id="checkbox" name="checkbox">
+            </div>
+            <button type="submit" id="botonRecuperar">Recuperar</button>
+
+            <p id="aviso"></p>
+
+            <a href="login.html" id="IrAlLogin">Ir al login</a>
         </form>
         </section>
     </main>

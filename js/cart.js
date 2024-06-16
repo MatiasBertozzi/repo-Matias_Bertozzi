@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let FinalizarCompra = document.querySelector(".FinalizarCompra");
 
     if (!cart || JSON.parse(cart).length === 0) {
-        productosSeleccionados.innerHTML = "<p>su carrito esta vacio</p>"
+        productosSeleccionados.innerHTML = "<p>Su carrito esta vacio</p>"
     } else {
         cart = JSON.parse(cart);
         cart.forEach(function(id) {
