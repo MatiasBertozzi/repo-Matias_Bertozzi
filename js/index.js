@@ -28,7 +28,7 @@ for (let i = 0; i < data.length; i++) {
             <div class="producto">
                 <img src=${data[i].image} alt="Productos">
                 <h2>${data[i].title}</h2>
-                <p>Descripcion: ${data[i].description}/p>
+                <p>Description: ${data[i].description}/p>
                 <p>Precio: $${data[i].price}</p>
                 <a href="./producto.html?id=${data[i].id}">Ver mas</a>
             </div>
@@ -41,6 +41,8 @@ for (let i = 0; i < data.length; i++) {
     console.log(err);
 })
 
+let RopaHombre=document.querySelector("#hombre section")
+
 fetch(`https://fakestoreapi.com/products/category/men's clothing`)
 
 .then(function (resp) {
@@ -48,10 +50,26 @@ fetch(`https://fakestoreapi.com/products/category/men's clothing`)
 })
 .then(function(data){
 console.log(data);
+for (let i = 0; i < data.length; i++) {
+    RopaHombre.innerHTML+=`
+       
+            <div class="producto">
+                <img src=${data[i].image} alt="Productos">
+                <h2>${data[i].title}</h2>
+                <p>Description: ${data[i].description}/p>
+                <p>Precio: $${data[i].price}</p>
+                <a href="./producto.html?id=${data[i].id}">Ver mas</a>
+            </div>
+        `
+
+}
+
 })
 .catch(function (err){
     console.log(err);
 }) 
+
+let RopaMujer=document.querySelector("#mujer section")
 
 fetch(`https://fakestoreapi.com/products/category/women's clothing`)
 
@@ -60,7 +78,22 @@ fetch(`https://fakestoreapi.com/products/category/women's clothing`)
 })
 .then(function(data){
 console.log(data);
+for (let i = 0; i < data.length; i++) {
+    RopaMujer.innerHTML+=`
+       
+            <div class="producto">
+                <img src=${data[i].image} alt="Productos">
+                <h2>${data[i].title}</h2>
+                <p>Description: ${data[i].description}/p>
+                <p>Precio: $${data[i].price}</p>
+                <a href="./producto.html?id=${data[i].id}">Ver mas</a>
+            </div>
+        `
+
+}
 })
+
+
 .catch(function (err){
     console.log(err);
 })
