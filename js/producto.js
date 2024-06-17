@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <p>Description: ${data.description}</p>
                     <p>Precio: $${data.price}</p>
                     <img src=${data.image} alt="detalleProducto"></img>
-                    <a href="./category.html?category=${data.category}" class="CategoriaLink">${data.category}</a>
+                    <a href="./category.html?categoria=${data.category}" class="CategoriaLink">${data.category}</a>
                     <button class="AgregarAlCarrito">Agregar al carrito</button>
                 </div>
                 `

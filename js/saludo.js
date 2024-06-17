@@ -1,9 +1,9 @@
+
+
 let header=document.querySelector("header")
 
 
-
-
-if (localStorage.getItem("array")==null) {
+if ((localStorage.getItem("array")===null) || (localStorage.getItem("array")[0].email== "")) {
     header.innerHTML=`<img src="./img/logo2.jpg"  alt="logo">
         <nav>
             <a href="./index.html">Home</a>
